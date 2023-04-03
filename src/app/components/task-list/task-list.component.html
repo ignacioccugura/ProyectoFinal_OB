@@ -1,0 +1,6 @@
+<h4> Tus tareas:</h4>
+
+<!-- TODO Replantear con directiva estructural (ngFor) -->
+<!-- ! El parentesis en "(deleteTask)" hace referencia a la propiedad output, no al metodo que lo emite -->
+<app-task [task]="tarea1" (deleteTask)="deleteTask($event)"></app-task>
+<app-task [task]="tarea2" (deleteTask)="deleteTask($event)"></app-task>
